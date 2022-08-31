@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/1601982411.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Check</th>
+        <th>Produit</th>
+        <th>Count</th>
+        <th>Unite Price</th>
+        <th>Price</th>
+        <th>Like OR Delete</th>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="checkbox" class="checkbox" check />
+        </td>
+
+        <td>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBPwqIrqVTYM1wrQAokHi-o6t__Gvi0iu4eQ&usqp=CAU"
+            alt="please attend"
+          />
+        </td>
+
+        <td>
+          <div class="btn-cont">
+            <button class="plus">+</button>
+            <p>0</p>
+            <button class="minus">-</button>
+          </div>
+        </td>
+
+        <td class="unitePrice">10000</td>
+
+        <td class="price">0</td>
+
+        <td>
+          <div class="dell">
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+
+            <button class="like"><i class="fa-solid fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+      
+      <!-- 2ligne************************************************ -->
+      <tr>
+        <td>
+          <input type="checkbox" class="checkbox"  check />
+        </td>
+
+        <td>
+          <img
+            src="https://media.mytek.tn/media/wysiwyg/categ-ordinateur-potable/pc-portable-1.jpg"
+            alt="please attend"
+          />
+        </td>
+
+        <td>
+          <div class="btn-cont">
+            <button class="plus">+</button>
+            <p>0</p>
+            <button class="minus">-</button>
+          </div>
+        </td>
+
+        <td class="unitePrice">12000</td>
+
+        <td class="price">0</td>
+
+        <td>
+          <div class="dell">
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+
+            <button class="like"><i class="fa-solid fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+
+      <!-- 3ligne*********************************************** -->
+      <tr>
+        <td>
+          <input type="checkbox" class="checkbox"  check />
+        </td>
+
+        <td>
+          <img
+            src="https://www.mega.tn/assets/uploads/img/pr_ordinateur_portable/1537359811_236.jpg"
+            alt="please attend"
+          />
+        </td>
+
+        <td>
+          <div class="btn-cont">
+            <button class="plus">+</button>
+            <p>0</p>
+            <button class="minus">-</button>
+          </div>
+        </td>
+
+        <td class="unitePrice">13000</td>
+
+        <td class="price">0</td>
+
+        <td>
+          <div class="dell">
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+
+            <button class="like"><i class="fa-solid fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+      <!-- 4ligne ********************************* -->
+      <tr>
+        <td>
+          <input type="checkbox" class="checkbox"  check />
+        </td>
+
+        <td>
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="please attend"
+          />
+        </td>
+
+        <td>
+          <div class="btn-cont">
+            <button class="plus">+</button>
+            <p>0</p>
+            <button class="minus">-</button>
+          </div>
+        </td>
+
+        <td class="unitePrice">14000</td>
+
+        <td class="price">0</td>
+
+        <td>
+          <div class="dell">
+            <button class="delete">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+
+            <button class="like"><i class="fa-solid fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td >Total</td>
+                <td  id="total">0</td>
+                <td></td>
+            </tr>
+
+
+
+      <!-- fin ************************************* -->
+    </table>
+    <script src="./style.js"></script>
+  </body>
+</html>
